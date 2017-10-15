@@ -1,6 +1,24 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
+
+
+	<script>
+window.onscroll = function() {
+  growShrinkLogo()
+};
+
+function growShrinkLogo() {
+  var Logo = document.getElementById("Logo")
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    Logo.style.width = '200px';
+  } else {
+    Logo.style.width = '500px';
+  }
+}
+</script>
+
+
 	<meta charset="UTF-8">
 	<title>Capstone Media</title>
 	
@@ -40,7 +58,7 @@
 						  </button>
 						  <a class="navbar-brand" href="#">
 							<div class="logo">
-								<img src="static/Logos/logo_capstone3.png" alt="" />
+								<img src="static/Logos/logo_capstone3.png" style="width:500px" id='Logo' alt="" />
 							</div>
 						  </a>
 						</div>
@@ -633,7 +651,7 @@
 					<div class="main_testimonial text-center wow fadeIn" data-wow-duration="1s">
 						<div class="single_testimonial">
 							<div class="single_testimonial_img">
-								<img class="img-circle" src="static/images/tst1.jpg" alt="" />
+								<img class="img-circle"  src="static/images/tst1.jpg" alt="" />
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,m quia.</p>
 								<a href="">RAF REDWAN</a>
 							</div>
