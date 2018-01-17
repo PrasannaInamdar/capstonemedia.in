@@ -65,14 +65,14 @@ $(window).load(function () {
 
 
 $(".main_testimonial").owlCarousel({
-
-/*autoPlay: 3000, //Set AutoPlay to 3 seconds*/
+autoHeight:true,
+autoPlay: 5000, //Set AutoPlay to 3 seconds*/
 items : 1,
 itemsDesktop : [1199,3],
 itemsDesktopSmall : [979,3],
 
 pagination : true,
-paginationNumbers: false,
+paginationNumbers: true,
  singleItem:true,
 
 responsive: true,
