@@ -12,5 +12,15 @@ def Home():
 
 
 
+@app.route("/temp")
+def temp():
+	return render_template("temp.html")
+
+@app.route("/par")
+def par():
+	return render_template("parellax.html")
+
+
+
 if __name__=='__main__':
 	app.run(debug=True)
