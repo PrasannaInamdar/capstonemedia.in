@@ -29,9 +29,9 @@ body {
   z-index: -1;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-animation: imageAnimation 24s linear infinite 0s;
-  -moz-animation: imageAnimation 24s linear infinite 0s;
-  animation: imageAnimation 24s linear infinite 0s;
+  -webkit-animation: imageAnimation 30s linear infinite 0s;
+  -moz-animation: imageAnimation 30s linear infinite 0s;
+  animation: imageAnimation 30s linear infinite 0s;
 }
 .slideshow li h3 {
   position: absolute;
@@ -45,9 +45,9 @@ body {
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  -webkit-animation: titleAnimation 24s linear 1 0s;
-  -moz-animation: titleAnimation 24s linear 1 0s;
-  animation: titleAnimation 24s linear 1 0s;
+  -webkit-animation: titleAnimation 30s linear 1 0s;
+  -moz-animation: titleAnimation 30s linear 1 0s;
+  animation: titleAnimation 30s linear 1 0s;
 }
 @media only screen and (min-width: 768px) {
   .slideshow li h3 {
@@ -62,25 +62,25 @@ body {
 }
 
 .slideshow li:nth-child(1) span {
-  background-image: url(static/images/invitation_1.jpg);
+  background-image: url(static/images/wedding1.jpg);
 }
 
 .slideshow li:nth-child(2) span {
-  background-image: url(static/images/invitation_10.jpg);
+  background-image: url(static/images/wedding2.jpg);
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   animation-delay: 6s;
 }
 
 .slideshow li:nth-child(3) span {
-  background-image: url(static/images/invitation_4.jpg);
+  background-image: url(static/images/wedding3.jpg);
   -webkit-animation-delay: 12s;
   -moz-animation-delay: 12s;
   animation-delay: 12s;
 }
 
 .slideshow li:nth-child(4) span {
-  background-image: url(static/images/invitation_6.jpg);
+  background-image: url(static/images/wedding4.jpg);
   -webkit-animation-delay: 18s;
   -moz-animation-delay: 18s;
   animation-delay: 18s;
@@ -88,26 +88,10 @@ body {
 
 
 .slideshow li:nth-child(5) span {
-  background-image: url(static/images/invitation_7.jpg);
-  -webkit-animation-delay: 18s;
-  -moz-animation-delay: 18s;
-  animation-delay: 18s;
-}
-
-
-.slideshow li:nth-child(6) span {
-  background-image: url(static/images/invitation_8.jpg);
-  -webkit-animation-delay: 18s;
-  -moz-animation-delay: 18s;
-  animation-delay: 18s;
-}
-
-
-.slideshow li:nth-child(7) span {
-  background-image: url(static/images/invitation_9.jpg);
-  -webkit-animation-delay: 18s;
-  -moz-animation-delay: 18s;
-  animation-delay: 18s;
+  background-image: url(static/images/wedding5.jpg);
+  -webkit-animation-delay: 24s;
+  -moz-animation-delay: 24s;
+  animation-delay: 24s;
 }
 
 
@@ -245,7 +229,6 @@ function growShrinkLogo() {
   }
 }
 
-
 </script>
 
 
@@ -253,7 +236,7 @@ function growShrinkLogo() {
 
 	<meta charset="UTF-8">
 	<title>Capstone Media</title>
-	
+	<script src='https://cdn.rawgit.com/davatron5000/Lettering.js/5a4897f9/jquery.lettering.js'></script>
 	 <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome/css/font-awesome.min.css') }}">
 	 <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts/stylesheet.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts/fonts.css') }}">
@@ -265,6 +248,7 @@ function growShrinkLogo() {
 <link rel="stylesheet" href="{{ url_for('static', filename='css/owl-carousel/owl.carousel.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/owl-carousel/owl.theme.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/owl-carousel/owl.transitions.css') }}">	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
 
@@ -327,31 +311,31 @@ function growShrinkLogo() {
 				<div class="main_banner_area text-center">
 					<div class="col-md-12 col-sm-12">
 						<div class="single_banner_text wow zoomIn" data-wow-duration="1s">
-							<h2>HELLO, WE’RE DESIGNERS</h2>
-							<h5>"Design is not for philosophy, it's life" -ISSEY MIYAKE</h5>
-							
-							<div class="separetor"></div>
+							<!-- <h2>HELLO, WE ARE DESIGNERS</h2>
+							<h5>QUOTE</h5> -->
+											
+
+							<!--<div class="separetor"></div> -->
 						</div>
 					</div>
 					<!-- click to bring the slideshow in and out of fullscreen mode -->		
 <ul class='slideshow'>
   <li>
-    <h3></h3>
-    <!-- By Keven Law from Los Angeles, USA (Long Hot Summer......) [CC-BY-SA-2.0 (http://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons, http://commons.wikimedia.org/wiki/File%3AFlickr_-_law_keven_-_Long_Hot_Summer.......jpg -->
+     <span></span>
+  </li>
+  <li>
+     <span></span>
+  </li>
+  <li>
     <span></span>
   </li>
   <li>
-    <!-- By http://www.ForestWander.com [CC-BY-SA-3.0-us (http://creativecommons.org/licenses/by-sa/3.0/us/deed.en)], via Wikimedia Commons, http://commons.wikimedia.org/wiki/File%3ARed-fall-tree-lake_-_West_Virginia_-_ForestWander.png -->
     <span></span>
   </li>
   <li>
-    <!-- By Valerii Tkachenko [CC-BY-2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons, http://commons.wikimedia.org/wiki/File%3AWinter_wonderland_Austria_mountain_landscape_(8290712092).jpg -->
-    <span></span>
+     <span></span>
   </li>
-  <li>
-    <!-- By Arman7 (Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0) or GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons, http://commons.wikimedia.org/wiki/File%3ABoroujerd_spring.jpg -->
-    <span></span>
-  </li>
+
 </ul>
 
 

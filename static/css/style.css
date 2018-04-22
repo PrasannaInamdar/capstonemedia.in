@@ -329,12 +329,13 @@ a:hover{
 	transition:.6s;
 }
 .navbar-default .navbar-nav>li>a {
-    color: #777;
+    color: red;
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: :700;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color:#e84c3d;
+	color:white;
 }
 .main_menu_bg .navbar {
     margin-bottom:0px;
@@ -372,16 +373,21 @@ a:hover{
 
 .single_banner_text h2{
 
-	color:#00000e;
+	color:white;
 	font-weight:500;
+	text-shadow: 2px 2px #ff0000;
+	font-family: 'Copperplate Gothic';
 	
+
 }
 .single_banner_text h5{
 	font-size:16px;
-	color:#00000e;
-	font-family:'opensans-regular';
+	color:white;
+	font-family:'Copperplate Gothic';
 	font-weight:100;
 	letter-spacing:.37rem;
+	
+
 }
 
 
@@ -1075,3 +1081,7 @@ color:#fff;
 	text-decoration: none;
 
 }
+
+
+/* Text hello we designer */
+
