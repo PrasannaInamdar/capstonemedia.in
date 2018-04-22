@@ -359,12 +359,11 @@ a:hover{
 
 
 /* Banner section */
-
+/*
 .banner{
-	background:url(../images/invitation_1.jpg) no-repeat;
+	background:url(../images/invitation_1.jpg) ;
 	position:relative;
-	background-size:cover;
-}
+	background-size:cover;*/
 
 .main_banner_area{
 	padding:250px 0px;
@@ -373,12 +372,13 @@ a:hover{
 
 .single_banner_text h2{
 
-	color:#81868e;
+	color:#00000e;
 	font-weight:500;
+	
 }
 .single_banner_text h5{
 	font-size:16px;
-	color:#81868e;
+	color:#00000e;
 	font-family:'opensans-regular';
 	font-weight:100;
 	letter-spacing:.37rem;
